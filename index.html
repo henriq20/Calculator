@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
+
 <body>
-    
+    <div id="calculator">
+
+        <!-- Results -->
+        <div class="output">
+            <div class="previous-output"></div>
+            <div class="current-output">0</div>
+        </div>
+
+        <!-- Numbers and Operators -->
+        <div class="input-grid">
+
+            <!-- 1st Row -->
+            <button class="clear-entry text-green">CE</button>
+            <button class="clear operator text-green">C</button>
+            <button class="operator text-green">%</button>
+            <button class="operator text-red">÷</button>
+
+            <!-- 2nd Row -->
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator text-red">×</button>
+
+            <!-- 3rd Row -->
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator text-red">-</button>
+
+            <!-- 4th Row -->
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator text-red">+</button>
+
+            <!-- 5th Row -->
+            <button class="number">.</button>
+            <button class="number">0</button>
+            <button class="equals span-two-columns text-red">=</button>
+        </div>
+    </div>
 </body>
+
 </html>
