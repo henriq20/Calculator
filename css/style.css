@@ -40,6 +40,7 @@ button {
 
 .previous-output {
     font-size: 18px;
+    color: #5d657a;
 }
 
 .current-output {
@@ -53,7 +54,7 @@ button {
     background-color: #2a2d37;
     display: grid;
     gap: 15px;
-    grid-template: repeat(5, 70px) / repeat(4, 70px);
+    grid-template: repeat(5, 80px) / repeat(4, 80px);
 }
 
 .span-two-columns {
